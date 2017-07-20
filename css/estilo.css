@@ -1,0 +1,205 @@
+html, body, .capa{
+	height: 100%;
+	font-family: arial;
+	color: white;
+	margin: 0;
+}
+
+/*-------------------Barra de navegação----------------*/
+	body{
+		margin-top: 0;
+	}
+
+	.menu{
+		margin-top: 40px;
+		width: 100%;
+		height: 80px;
+		background-color: black;
+		position: fixed;
+		padding: 0px;
+		transition: margin-top 0.5s ;
+		text-align: right;
+	}
+
+	.botoes{
+		margin-right: 6em;
+	}
+
+	.links{
+		display: inline-block;
+		margin-top: -10px;
+	}
+
+	.menu-links{
+		font-size:20pt;
+		text-decoration: none;
+		margin: 1em;
+		color: white;
+	}
+
+	.links-uteis{
+		margin-top: 2em;
+	}
+
+	.links:hover{
+		background-color:green;
+		color:white;
+		transition: 0.5s;
+	}
+
+	.logo{
+		background: url('../imagens/teste.png') no-repeat;
+		background-size: contain;
+		width: 20%;
+		height: 100%;
+		float: left;
+		margin-left: 10%;
+	}
+
+	.fixar {
+	    position:fixed;
+	    margin-top: 0px !important;
+	    padding: 0.8% 0;
+
+	    /*background-color: rgba(13,255,139,0.5);*/
+	    background-color: black;
+	    transition: padding 0.7s, margin-top 0.7s, background-color 0.9s;
+	}
+
+	.fixar2{
+		color: white;
+	}
+
+	/* ---------------------Capa----------------------*/
+
+	body{
+
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+
+	.capa {
+		display: table;
+		height: 100%;
+		width: 100%;
+		transition-duration: 0.25s;
+		
+	}
+
+	.texto-capa {
+		text-align: center;
+		transition-duration: 0.25s;
+		background-image: url('../imagens/codigofosco.png');
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		height: 100%;
+		width: 50%;
+		display: table-cell;
+		border: solid 5px white;
+	}
+	.texto-capa:hover{
+		transition-duration: 0.25s;
+		background-image: url('../imagens/codigonormal.png');
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		height: 100%;
+		width: 50%;
+		display: table-cell;
+		border: solid 0px green;		
+	}
+
+	.texto-capa2 {
+		text-align: center;
+		transition-duration: 0.25s;
+		background-image: url('../imagens/placafosco.png');
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		height: 100%;
+		width: 50%;
+		display: table-cell;
+		border: solid 5px white;
+	}
+
+	.texto-capa2:hover {
+		transition-duration: 0.25s;
+		background-image: url('../imagens/placanormal.png');
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		height: 100%;
+		width: 50%;
+		display: table-cell;
+		border: solid 0px green;
+
+	}
+
+	/*-------------------Serviços-------------------*/
+	.servicos{
+		height: 100%;
+		color:black;
+		background-color: black;
+	}
+
+	.capa-servicos{
+		height: 100%;
+	}
+
+	h1{
+		color: white;
+		text-align: center;
+		font-size: 24pt;
+	}
+
+	.servico{
+		float:left;
+		width: 30.6%;
+		color: rgba(13,255,139);
+		background-color: white;
+		padding: 1%;
+	}
+	.serv-manutencao, .serv-devapp {
+		margin-right: 1%;
+	}
+
+	h3{
+		text-align: center;
+	}
+
+	.dev-app{
+		background: url('../imagens/icones/devapp.jpg') no-repeat; 
+	}
+
+	.manutencao{
+		background: url('../imagens/icones/manutencao.png') no-repeat; 
+	}
+
+	.dev-web{
+		background: url('../imagens/icones/design.png') no-repeat; 
+	}
+
+	.dev-app,.manutencao,.dev-web{
+		background-color: white;
+		height: 120px;
+		width: 120px;
+		display: block;
+		background-size: contain;
+		margin-right: 4%;
+		margin-bottom: 4%;
+	}
+
+/*-------------------Quem-somos?-------------------*/
+
+.quem-somos{
+	background-color: black;
+	color: white
+	
+}
+
+.capa-quem-somos{
+	height: 100%;
+}
+h1{
+	text-align: center;
+}
+
